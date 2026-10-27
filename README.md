@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi, I'm Rahul Sah 👋<br><br>🎓 Final-year B.Tech student specializing in Artificial Intelligence & Machine Learning (AI&ML).<br>📊 Currently learning Data Science and exploring data-driven solutions.<br>💻 Interested in Python, Machine Learning, Data Analytics, and Generative AI.<br>🧠 Practicing Data Structures and Algorithms on LeetCode.<br>🚀 Building projects and continuously improving my technical skills.<br>🎯 Goal: To become a Data Scientist and build AI-powered solutions that solve real-world problems.<br><br>🌱 Learning • Building • Growing
+Hi, I'm Rahul Sah 👋<br><br>🎓 Final-year B.Tech student specializing in Artificial Intelligence & Machine Learning (AI&ML).<br>📊 Currently learning Data Science and exploring data-driven solutions.<br>💻 Interested in Python, Machine Learning, Data Analytics, Data Science, and Generative AI.<br>🧠 Practicing Data Structures and Algorithms on LeetCode.<br>🚀 Building projects and continuously improving my technical skills.<br>🎯 Goal: To become a Data Scientist and build AI-powered solutions that solve real-world problems.<br><br>🌱 Learning • Building • Growing
 
 
 ## 🌐 Socials:
