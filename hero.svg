@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+<defs>
+<linearGradient id="hAur" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<linearGradient id="hAur2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<pattern id="hDots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#ffffff" opacity=".06"/></pattern>
+<radialGradient id="hGlow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#a78bfa" stop-opacity=".45"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+<clipPath id="hTypeClip"><rect x="40" y="62" width="0" height="22"><animate attributeName="width" values="0;150;150" keyTimes="0;.12;1" dur="8s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+<style>
+.h-name{font-size:50px;font-weight:800;fill:url(#hAur)}
+.h-role{font-size:22px;font-weight:600;fill:#e5e7eb}
+.h-mono{font-family:'SFMono-Regular',Consolas,Menlo,monospace}
+</style>
+<rect width="900" height="320" rx="22" fill="#0d0e16"/>
+<rect width="900" height="320" rx="22" fill="url(#hDots)"/>
+<rect x="1" y="1" width="898" height="318" rx="21" fill="none" stroke="url(#hAur)" stroke-opacity=".55"/>
+<!-- pill -->
+<rect x="40" y="26" width="190" height="26" rx="13" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".5"/>
+<circle cx="56" cy="39" r="4" fill="#22d3ee"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/><animate attributeName="r" values="4;6;4" dur="1.6s" repeatCount="indefinite"/></circle>
+<text x="68" y="43" font-size="12" fill="#67e8f9" class="h-mono">open to collabs</text>
+<!-- typed -->
+<text x="40" y="80" font-size="18" fill="#9ca3af" class="h-mono" clip-path="url(#hTypeClip)">Hi there, I'm</text>
+<!-- name -->
+<text x="40" y="140" class="h-name">Rahul Sah
+<animate attributeName="opacity" values="0;0;1" keyTimes="0;.05;.2" dur="8s" repeatCount="indefinite"/></text>
+<!-- roles -->
+<g class="h-role">
+<text x="40" y="180">AI &amp; ML Engineer<animate attributeName="opacity" values="1;1;0;0;0;0" keyTimes="0;.28;.33;.9;.95;1" dur="9s" repeatCount="indefinite"/></text>
+<text x="40" y="180">Data Science Learner<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.33;.38;.61;.66;1" dur="9s" repeatCount="indefinite"/></text>
+<text x="40" y="180">Generative AI Builder<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.66;.71;.95;1" dur="9s" repeatCount="indefinite"/></text>
+</g>
+<text x="40" y="214" font-size="14" fill="#9ca3af">Final-year B.Tech · building data-driven, AI-powered solutions.</text>
+<!-- meta -->
+<g font-size="13" fill="#cbd5e1">
+<g transform="translate(40,246)"><path d="M7 0a5 5 0 0 0-5 5c0 4 5 9 5 9s5-5 5-9a5 5 0 0 0-5-5zm0 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="#f472b6"/><text x="20" y="11">Maharashtra, India</text></g>
+<g transform="translate(205,246)"><rect y="1" width="14" height="12" rx="2" fill="none" stroke="#22d3ee" stroke-width="1.5"/><path d="M2 3l5 4 5-4" fill="none" stroke="#22d3ee" stroke-width="1.5"/><text x="20" y="11">B.Tech · AI &amp; ML</text></g>
+<g transform="translate(360,246)"><path d="M7 0l2 4.5 5 .6-3.7 3.4 1 5L7 11l-4.3 2.5 1-5L0 5.1l5-.6z" fill="#a78bfa"/><text x="20" y="11">4 repos · LeetCode grinder</text></g>
+</g>
+<!-- viewfinder -->
+<g transform="translate(610,30)">
+<ellipse cx="130" cy="130" rx="120" ry="120" fill="url(#hGlow)"/>
+<rect x="0" y="0" width="260" height="240" rx="10" fill="#11121c" stroke="#ffffff" stroke-opacity=".08"/>
+<g transform="translate(130,115)">
+<circle r="62" fill="none" stroke="url(#hAur2)" stroke-width="3" stroke-dasharray="14 8"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/></circle>
+<circle r="52" fill="#0d0e16" stroke="#ffffff" stroke-opacity=".1"/>
+<!-- vector avatar -->
+<circle cy="-14" r="17" fill="#fcd9b6"/>
+<path d="M-18 -18c2-14 34-14 36 0-8-6-26-6-36 0z" fill="#1f2937"/>
+<path d="M-34 38c0-26 68-26 68 0v8h-68z" fill="url(#hAur2)"/>
+<rect x="-14" y="14" width="28" height="12" rx="3" fill="#1f2937"/>
+<animateTransform attributeName="transform" type="translate" values="130,115;130,111;130,115" dur="3s" repeatCount="indefinite"/>
+</g>
+<g fill="none" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round">
+<path d="M12 36V12h24" stroke-dasharray="60" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="60;0;0" keyTimes="0;.1;1" dur="8s" repeatCount="indefinite"/></path>
+<path d="M248 36V12h-24"/><path d="M12 204v24h24"/><path d="M248 204v24h-24"/>
+</g>
+<circle cx="30" cy="30" r="0" fill="#ef4444"/>
+<circle cx="26" cy="26" r="4" fill="#ef4444"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></circle>
+<text x="36" y="30" font-size="10" fill="#fca5a5" class="h-mono">REC</text>
+<text x="130" y="212" text-anchor="middle" font-size="10" fill="#9ca3af" class="h-mono">rahul_sah.mp4</text>
+<rect x="30" y="222" width="200" height="3" rx="1.5" fill="#ffffff" fill-opacity=".1"/>
+<rect x="30" y="222" width="0" height="3" rx="1.5" fill="url(#hAur)"><animate attributeName="width" values="0;200;200;0" keyTimes="0;.7;.95;1" dur="4s" repeatCount="indefinite"/></rect>
+</g>
+</svg>

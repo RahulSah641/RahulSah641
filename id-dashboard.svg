@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+<defs>
+<linearGradient id="dAur" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<linearGradient id="dAur2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<linearGradient id="dFoil" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".25"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="dBar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<pattern id="dDots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#fff" opacity=".06"/></pattern>
+<clipPath id="dCard"><rect x="-80" y="0" width="160" height="250" rx="14"/></clipPath>
+</defs>
+<style>.m{font-family:Consolas,Menlo,monospace}</style>
+<rect width="900" height="400" rx="22" fill="#0d0e16"/><rect width="900" height="400" rx="22" fill="url(#dDots)"/>
+<rect x="1" y="1" width="898" height="398" rx="21" fill="none" stroke="url(#dAur)" stroke-opacity=".5"/>
+
+<!-- BADGE: drop-in then damped swing -->
+<g transform="translate(150,0)">
+<animateTransform attributeName="transform" type="translate" values="150,-60;150,0;150,0" keyTimes="0;.12;1" dur="10s" repeatCount="indefinite"/>
+<g>
+<animateTransform attributeName="transform" type="rotate" values="0 0 0;10 0 0;-8 0 0;6 0 0;-4 0 0;2 0 0;-1 0 0;0 0 0;0 0 0" keyTimes="0;.12;.2;.28;.36;.44;.52;.6;1" dur="10s" repeatCount="indefinite"/>
+<!-- strap -->
+<rect x="-12" y="-10" width="24" height="86" fill="#7c3aed"/>
+<text transform="translate(4,70) rotate(-90)" font-size="8" fill="#fff" fill-opacity=".8" class="m" letter-spacing="2">RAHULSAH641</text>
+<rect x="-10" y="76" width="20" height="14" rx="3" fill="#cbd5e1"/><rect x="-5" y="86" width="10" height="8" rx="2" fill="#94a3b8"/>
+<!-- card -->
+<g transform="translate(0,94)">
+<rect x="-80" y="0" width="160" height="250" rx="14" fill="#11121c" stroke="url(#dAur2)" stroke-width="1.5"/>
+<rect x="-24" y="12" width="48" height="6" rx="3" fill="#0d0e16" stroke="#fff" stroke-opacity=".2"/>
+<!-- portrait frame -->
+<rect x="-52" y="30" width="104" height="104" rx="14" fill="#0d0e16" stroke="#fff" stroke-opacity=".12"/>
+<rect x="-52" y="30" width="104" height="104" rx="14" fill="none" stroke="url(#dAur2)" stroke-width="2" stroke-dasharray="40 340"><animate attributeName="stroke-dashoffset" values="0;-380" dur="4s" repeatCount="indefinite"/></rect>
+<circle cy="68" r="17" fill="#fcd9b6"/><path d="M-18 64c2-14 34-14 36 0-8-6-26-6-36 0z" fill="#1f2937"/>
+<path d="M-38 134c0-34 76-34 76 0z" fill="url(#dAur2)"/>
+<text y="162" text-anchor="middle" font-size="16" font-weight="800" fill="#e5e7eb">Rahul Sah</text>
+<text y="180" text-anchor="middle" font-size="10" fill="#22d3ee" class="m">AI &amp; ML · B.Tech</text>
+<rect x="-52" y="192" width="22" height="16" rx="3" fill="#fbbf24"/><path d="M-52 200h22M-41 192v16" stroke="#92400e" stroke-width="1"/>
+<g fill="#e5e7eb" opacity=".8"><rect x="-20" y="216" width="2" height="18"/><rect x="-16" y="216" width="1" height="18"/><rect x="-13" y="216" width="3" height="18"/><rect x="-8" y="216" width="1" height="18"/><rect x="-5" y="216" width="2" height="18"/><rect x="0" y="216" width="3" height="18"/><rect x="5" y="216" width="1" height="18"/><rect x="8" y="216" width="2" height="18"/><rect x="12" y="216" width="1" height="18"/><rect x="15" y="216" width="3" height="18"/></g>
+<g clip-path="url(#dCard)"><rect x="-120" y="0" width="60" height="250" fill="url(#dFoil)" transform="skewX(-20)"><animate attributeName="x" values="-160;160;160" keyTimes="0;.5;1" dur="5s" repeatCount="indefinite"/></rect></g>
+</g>
+</g>
+</g>
+
+<!-- DASHBOARD -->
+<g transform="translate(300,0)">
+<text x="0" y="40" font-size="20" font-weight="700" fill="#e5e7eb">Dashboard</text>
+<!-- KPIs -->
+<g>
+<rect x="0" y="58" width="170" height="76" rx="12" fill="#22d3ee" fill-opacity=".07" stroke="#22d3ee" stroke-opacity=".3"/>
+<text x="16" y="82" font-size="11" fill="#9ca3af">PUBLIC REPOS</text>
+<text x="16" y="116" font-size="30" font-weight="800" fill="#22d3ee">4</text>
+<rect x="195" y="58" width="170" height="76" rx="12" fill="#a78bfa" fill-opacity=".07" stroke="#a78bfa" stroke-opacity=".3"/>
+<text x="211" y="82" font-size="11" fill="#9ca3af">STARS EARNED</text>
+<text x="211" y="116" font-size="30" font-weight="800" fill="#a78bfa">4</text>
+<rect x="390" y="58" width="170" height="76" rx="12" fill="#f472b6" fill-opacity=".07" stroke="#f472b6" stroke-opacity=".3"/>
+<text x="406" y="82" font-size="11" fill="#9ca3af">ACHIEVEMENTS</text>
+<text x="406" y="116" font-size="30" font-weight="800" fill="#f472b6">2</text>
+</g>
+<!-- bar chart -->
+<text x="0" y="168" font-size="13" font-weight="600" fill="#e5e7eb">Projects · stars</text>
+<g font-size="12" fill="#cbd5e1">
+<text x="0" y="196">ClearMark-Ai</text><rect x="110" y="184" width="260" height="14" rx="7" fill="#fff" fill-opacity=".06"/><rect x="110" y="184" width="260" height="14" rx="7" fill="url(#dBar)"><animate attributeName="width" values="0;260;260" keyTimes="0;.3;1" dur="6s" repeatCount="indefinite"/></rect><text x="380" y="196" fill="#9ca3af">1</text>
+<text x="0" y="226">Rax-Ai</text><rect x="110" y="214" width="260" height="14" rx="7" fill="#fff" fill-opacity=".06"/><rect x="110" y="214" width="260" height="14" rx="7" fill="url(#dBar)"><animate attributeName="width" values="0;260;260" keyTimes="0;.4;1" dur="6s" repeatCount="indefinite"/></rect><text x="380" y="226" fill="#9ca3af">1</text>
+<text x="0" y="256">relaydrop</text><rect x="110" y="244" width="260" height="14" rx="7" fill="#fff" fill-opacity=".06"/><rect x="110" y="244" width="260" height="14" rx="7" fill="url(#dBar)"><animate attributeName="width" values="0;260;260" keyTimes="0;.5;1" dur="6s" repeatCount="indefinite"/></rect><text x="380" y="256" fill="#9ca3af">1</text>
+</g>
+<!-- now panel -->
+<rect x="0" y="282" width="560" height="92" rx="12" fill="#11121c" stroke="#fff" stroke-opacity=".1"/>
+<circle cx="20" cy="304" r="4" fill="#34d399"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text x="32" y="308" font-size="12" font-weight="700" fill="#34d399" class="m">NOW</text>
+<g class="m" font-size="12" fill="#cbd5e1">
+<text x="20" y="332">▸ learning Data Science &amp; Generative AI</text>
+<text x="20" y="350">▸ solving DSA problems on LeetCode</text>
+<text x="20" y="368">▸ shipping local-first AI projects</text>
+</g>
+</g>
+</svg>

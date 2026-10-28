@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+<defs>
+<linearGradient id="cAur" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<linearGradient id="cAur2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<pattern id="cDots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#fff" opacity=".06"/></pattern>
+</defs>
+<rect width="900" height="260" rx="22" fill="#0d0e16"/><rect width="900" height="260" rx="22" fill="url(#cDots)"/>
+<rect x="1" y="1" width="898" height="258" rx="21" fill="none" stroke="url(#cAur)" stroke-opacity=".5"/>
+<!-- character pointing -->
+<g transform="translate(150,140)">
+<animateTransform attributeName="transform" type="translate" values="150,140;150,134;150,140" dur="3s" repeatCount="indefinite"/>
+<circle cy="-20" r="30" fill="#fcd9b6"/><path d="M-30 -26c4-26 56-26 60 0-14-10-46-10-60 0z" fill="#1f2937"/>
+<circle cx="-10" cy="-18" r="2.5" fill="#1f2937"/><path d="M6 -18h8" stroke="#1f2937" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M-10 -6q10 8 20 0" fill="none" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+<path d="M-50 80c0-50 100-50 100 0z" fill="url(#cAur2)"/>
+<!-- pointing arm -->
+<g><path d="M40 30L96 12" stroke="#fcd9b6" stroke-width="12" stroke-linecap="round"/><animateTransform attributeName="transform" type="rotate" values="0 40 30;-8 40 30;0 40 30" dur="1.4s" repeatCount="indefinite"/></g>
+<text x="-70" y="-62" font-size="16" fill="#f472b6">♥<animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite"/></text>
+<text x="52" y="-58" font-size="14" fill="#22d3ee">✦<animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/></text>
+</g>
+<text x="150" y="238" text-anchor="middle" font-size="13" fill="#9ca3af" font-family="Consolas,monospace">// let's connect</text>
+<!-- link cards -->
+<g font-size="15">
+<g>
+<rect x="340" y="30" width="520" height="56" rx="14" fill="#0a66c2" fill-opacity=".12" stroke="#0a66c2" stroke-opacity=".6"/>
+<rect x="358" y="44" width="28" height="28" rx="6" fill="#0a66c2"/><text x="372" y="64" text-anchor="middle" font-weight="800" fill="#fff">in</text>
+<text x="402" y="55" font-weight="700" fill="#e5e7eb">LinkedIn</text><text x="402" y="73" font-size="12" fill="#9ca3af">linkedin.com/in/rahul-sah-9b07a2279</text>
+<text x="830" y="64" font-size="20" fill="#22d3ee">→<animate attributeName="x" values="826;836;826" dur="1.4s" repeatCount="indefinite"/></text>
+</g>
+<g>
+<rect x="340" y="102" width="520" height="56" rx="14" fill="#a78bfa" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".6"/>
+<rect x="358" y="116" width="28" height="28" rx="6" fill="#000"/><text x="372" y="136" text-anchor="middle" font-weight="800" fill="#fff" font-size="12">&lt;/&gt;</text>
+<text x="402" y="127" font-weight="700" fill="#e5e7eb">CodePen</text><text x="402" y="145" font-size="12" fill="#9ca3af">codepen.io/Rahulsah7774</text>
+<text x="830" y="136" font-size="20" fill="#a78bfa">→<animate attributeName="x" values="826;836;826" dur="1.4s" begin=".3s" repeatCount="indefinite"/></text>
+</g>
+<g>
+<rect x="340" y="174" width="520" height="56" rx="14" fill="#f59e0b" fill-opacity=".1" stroke="#f59e0b" stroke-opacity=".6"/>
+<rect x="358" y="188" width="28" height="28" rx="6" fill="#f59e0b"/><text x="372" y="208" text-anchor="middle" font-weight="800" fill="#0d0e16" font-size="14">LC</text>
+<text x="402" y="199" font-weight="700" fill="#e5e7eb">LeetCode</text><text x="402" y="217" font-size="12" fill="#9ca3af">leetcode.com/u/rahulsah641</text>
+<text x="830" y="208" font-size="20" fill="#f472b6">→<animate attributeName="x" values="826;836;826" dur="1.4s" begin=".6s" repeatCount="indefinite"/></text>
+</g>
+</g>
+</svg>
